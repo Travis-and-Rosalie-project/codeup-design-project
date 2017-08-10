@@ -36,25 +36,28 @@ h5 {
     height: auto;
 }
 
-.circle {
+.circle, .icon {
     border-radius: 50%;
+}
+
+.circle {
     border: 1em solid #ffffff;
     color: #ffffff;
 }
 
-.circle-red {
+.circle-red, .icon-red {
     background-color: #e6563b;
 }
 
-.circle-yellow {
+.circle-yellow, .icon-yellow {
     background-color: #e79e1a;
 }
 
-.circle-green {
+.circle-green, .icon-green {
     background-color: #7cb06c;
 }
 
-.circle-blue {
+.circle-blue, .icon-blue {
     background-color: #00aba9;
 }
 
