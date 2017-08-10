@@ -2,9 +2,29 @@ body {
     font-family: "Abel", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5 {
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.75em;
 }
 
 .header-alt small {
@@ -14,6 +34,28 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-brand>img {
     width: 100%;
     height: auto;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1em solid #ffffff;
+    color: #ffffff;
+}
+
+.circle-red {
+    background-color: #e6563b;
+}
+
+.circle-yellow {
+    background-color: #e79e1a;
+}
+
+.circle-green {
+    background-color: #7cb06c;
+}
+
+.circle-blue {
+    background-color: #00aba9;
 }
 
 
