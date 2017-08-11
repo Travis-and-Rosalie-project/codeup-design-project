@@ -27,15 +27,13 @@ h1,h2,h3,h4,h5 {
     /*font-size: 1.75em;*/
 /*}*/
 
-
+.featured-project .featured-img {
+    border: .25em solid #E6E6E6;
+    border-radius: 5px;
+}
 
 .header-alt small {
     color: #000000;
-}
-
-.navbar-brand>img {
-    width: 100%;
-    height: auto;
 }
 
 .circle, .icon {
@@ -43,8 +41,15 @@ h1,h2,h3,h4,h5 {
 }
 
 .circle {
-    border: 1em solid #ffffff;
+    border: .25em solid #ffffff;
     color: #ffffff;
+    height: 105px;
+    width: 105px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
 }
 
 .circle-red, .icon-red {
