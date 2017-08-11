@@ -2,6 +2,11 @@ body {
     font-family: "Abel", sans-serif;
     background-color: #F0F0F0;
 }
+
+body p {
+    text-transform: uppercase;
+}
+
 .navbar-default {
     border: none;
     background-color: #fff;
@@ -11,6 +16,11 @@ h1,h2,h3,h4,h5 {
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
 }
+
+.jumbotron {
+    background-color: #F0F0F0;
+}
+
 
 /*h1 {*/
     /*font-size: 4em;*/
@@ -57,6 +67,11 @@ h1,h2,h3,h4,h5 {
     color: #ffffff;
     height: 105px;
     width: 105px;
+    margin-top: 1em;
+}
+
+.circle h3 {
+    margin-top: 1.5em;
 }
 
 .icon {
@@ -107,8 +122,33 @@ h1,h2,h3,h4,h5 {
 .last-section>p {
     margin-bottom: 3.5em;
 }
+
+.last-tweet-row {
+    padding: 2em 1em 0 1em;
+}
+
+.last-tweet-row>p:nth-child(2) {
+    text-transform: none;
+}
+
+.article {
+    margin-bottom: 1.5em;
+}
+
+.article .headline-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 @media screen and (min-width:992px){
     #sw-heading{
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .headline-text {
+        padding-top: 1em;
+        padding-bottom: 1.25em;
     }
 }
