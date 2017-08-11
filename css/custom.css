@@ -191,3 +191,37 @@ h1,h2,h3,h4,h5 {
         float: none;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    nav {
+        text-align: center;
+    }
+
+    .logo-container {
+        display: inline-block;
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .logo-container .codeup-logo, .logo-container .logo-text, .nav-links {
+        float: none;
+    }
+
+    .nav-links {
+        position: relative;
+    }
+
+    .nav-links li:first-child, .nav-links li:nth-child(2) {
+        position: relative;
+        bottom: 9em;
+        right: 5em;
+    }
+
+    .nav-links li:nth-child(3), .nav-links li:last-child {
+        position: relative;
+        bottom: 9em;
+        left: 5em;
+    }
+
+}
