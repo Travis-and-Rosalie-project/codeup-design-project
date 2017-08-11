@@ -1,15 +1,38 @@
 body {
     font-family: "Abel", sans-serif;
     background-color: #F0F0F0;
-}
-
-body p {
     text-transform: uppercase;
 }
-
 .navbar-default {
     border: none;
     background-color: #fff;
+}
+nav {
+    background-color: #fff;
+    margin-top: 4em;
+
+}
+.logo-container {
+    display: inline-block;
+    text-transform: none;
+}
+.codeup-logo {
+    max-width: 105px;
+    max-height: 105px;
+    float: left;
+}
+.logo-text {
+    float:left;
+    font-size: 3em;
+}
+nav ul {
+    list-style-type: none;
+    float: right;
+    padding: 0;
+}
+nav ul>li {
+    display: inline-block;
+    padding: 0 .5em;
 }
 
 h1,h2,h3,h4,h5 {
@@ -150,5 +173,21 @@ h1,h2,h3,h4,h5 {
     .headline-text {
         padding-top: 1em;
         padding-bottom: 1.25em;
+    }
+    nav>* {
+        width: 99%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo-container {
+        width: 100%;
+    }
+    .logo-container .codeup-logo {
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    .logo-container .logo-text {
+        float: none;
     }
 }
