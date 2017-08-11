@@ -104,6 +104,9 @@ h1,h2,h3,h4,h5 {
     overflow: auto;
     padding-right: 3px;
 }
+.last-section>p {
+    margin-bottom: 3.5em;
+}
 @media screen and (min-width:992px){
     #sw-heading{
         text-align: left;
