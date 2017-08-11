@@ -62,7 +62,14 @@ h1,h2,h3,h4,h5 {
 .icon {
     width: 18px;
     height: 18px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    line-height: 18px;
+
 }
 
 .circle-red, .icon-red {
@@ -81,6 +88,22 @@ h1,h2,h3,h4,h5 {
     background-color: #00aba9;
 }
 
+.fp-title-wrapper {
+    width:100%;
+    overflow: auto;
+}
+.fp-title, .icons {
+    display: inline-block;
+    width: 50%;
+}
+.fp-title {
+    float: left;
+}
+.icons {
+    float: right;
+    overflow: auto;
+    padding-right: 3px;
+}
 @media screen and (min-width:992px){
     #sw-heading{
         text-align: left;
